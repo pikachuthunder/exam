@@ -1,0 +1,54 @@
+.carousel-item {
+    position: relative;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 60vh; /* Adjusted height */
+    object-fit: cover;
+}
+.container text-center{
+    background-color: white;
+}
+.outer-box {
+    height: auto; /* Adjust based on outer container needs */
+}
+
+.inner-box {
+    height: 300px; /* Set a fixed height or adjust to your preference */
+    padding: 20px; /* Adds extra spacing within the box */
+    background-color: #f8f9fa; /* Optional: background color for inner box */
+}
+.img-custom {
+    max-width: 70%;
+    height: auto;
+    margin: 0; /* Ensure no margin */
+}
+.custom-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.center-box p {
+    margin: 0;
+}
+.container, .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.about-me {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.about-me h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.about-me .signature {
+    font-style: italic;
+    color: #888;
+}
